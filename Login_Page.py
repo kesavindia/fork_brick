@@ -5,7 +5,6 @@ class UserAuthentication:
     def __init__(self):
         self.users = {}
         self.roles = ['Administrator', 'Investor']
-
     def register_user(self, username, password, role):
         if username[0].isupper() and username.isalpha() and len(password) >= 8:
             if role in self.roles:
@@ -52,3 +51,4 @@ while True:
         print(login_result)
     else:
         print("Invalid choice. Please try again.")
+
