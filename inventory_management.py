@@ -49,7 +49,6 @@ class InventoryLocation:
         else:
             print(f"Insufficient stock of {brick.type} at {self.location}")
 
-# Example usage
 # Create brick objects
 brick1 = Brick("Standard", (20, 8, 5), 2, "Red", 1500, 150, 25)
 brick2 = Brick("Paving", (20, 20, 5), 3.0, "Gray", 2000, 50, 30)
