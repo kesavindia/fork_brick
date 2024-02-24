@@ -14,7 +14,7 @@ class UserOrder:
             self.user_address = input("Enter your address: ")
 
             if all([self.user_name, self.user_ph, self.user_address]):
-                if re.match(r'^[a-zA-Z]{3,12}$', self.user_name) and re.match(r'^\d{10}$', self.user_ph) and re.match(r'^[a-zA-Z]{3,30}$',self.user_address):
+                if re.match(r'^[a-zA-Z]{3,12}$', self.user_name) and re.match(("(0|91)?[6-9][0-9]{9}"), self.user_ph) and re.match(r'^[a-zA-Z]{3,30}$',self.user_address):
                     break
                 else:
                     print("Invalid name or phone number or address format.")
