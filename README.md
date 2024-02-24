@@ -10,9 +10,8 @@ PROJECT FLOW
 2. ADMIN MODULE
    a. admin.py - Aryadeep
    b. setbillingcriteria.py - Shaila
-   c. dailyandmonthlywages.py - Annapurna
-   d. inventory_management.py - Kesavan
-   e. wages.csv
+   c. dailyandmonthlywages.py - Kesavan  
+   d. wages.csv
 3. INVESTOR MDOULE
    a. investment.py - Bharath
 4. USER MODULE
